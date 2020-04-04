@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #eee;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 100px;
+    border: 5px solid #222;
+    border-top: none;
+    margin: 0px 250px;
+    border-radius: 0px 0px 970px 970px ;
+}
+
+.light {
+    display: flex;
+    position: absolute;
+    top: 16%;
+}
+
+.light li{
+    list-style: none;
+    width: 40px;
+    height: 60px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 0px 20px;
+}
+
+.startBtn {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 250px;
+    height: 80px;
+    border-radius: 8px;
+    font-size: 28px;
+    background: #444;
+    color: #fff;
+    outline: none
+}
+
+.startBtn:hover,
+.startBtn:active {
+    background: #111;
+    color: #fff;
+    outline: none
+}
+
+.choose-color {
+    position: absolute;
+    top: 40%;
+}
+
+.choose-color p {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+.color{
+    margin: 0px 5px;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #222;
+    outline: none;
+}
+
+.bodyStop {
+    background: #222;
+}
+
+.rowStop {
+    border: 5px solid #111;
+}
+
+.startBtnStop {
+    background: #fff;
+    color: #333;
+}
+
+.startBtnStop:hover{
+    background: #222;
+    color: #fff;
+}
+
+.lightsStop {
+    background: #fff;
+}
